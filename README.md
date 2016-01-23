@@ -1,0 +1,2 @@
+# AJAXPractice
+Practice for AJAX
