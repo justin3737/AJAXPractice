@@ -64,7 +64,8 @@ for (var i=0; i<myMusic.Mayday.length; i++) {
 
 
 /* --------------JSON-------------- */
-//JSON 跟Object 可以互轉
+//註：JSON 跟Object 可以互轉
+//JSON example:
 {
 	"employees":[
 	    {"firstName":"John", "lastName":"Doe"}, 
