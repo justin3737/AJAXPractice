@@ -74,6 +74,11 @@ for (var i=0; i<myMusic.Mayday.length; i++) {
 }
 
 /*--------------API：Application Programming Interface--------------*/
+//應用程式介面
 
 /* --------------JSONP:JSON with Padding-------------- */
+//垮網域存取 JSON
+
+/* --------------JSON online tools-------------- */
 //http://jsonlint.com/
+//http://www.jsoneditoronline.org/
