@@ -18,3 +18,36 @@ $.when( d1, d2, d3 ).done(function ( v1, v2, v3 ) {
 d1.resolve();
 d2.resolve( "abc" );
 d3.resolve( 1, 2, 3, 4, 5 );
+
+
+/* -------------- example 2 --------------*/
+// alert "哈哈，成功了！"
+// 接著等待5秒
+// alert "執行完畢！"
+
+var wait = function(){
+    var tasks = function(){
+        alert("執行完畢！");
+    };
+    setTimeout(tasks,5000);
+};
+
+$.when(wait())
+    .done(function(){ alert("哈哈，成功了！"); })
+    .fail(function(){ alert("出錯啦！"); });
+
+/* -------------- deferred.promise() 的方法--------------*/
+var wait = function(){
+    var dtd = $.Deferred(); //在函數内部，新建一个Deferred物件
+        var tasks = function(){
+            alert("執行完畢！");
+            dtd.resolve(); //改變Deferred物件的執行狀態
+        };
+    setTimeout(tasks,5000);
+    return dtd.promise(); // 返回promise物件
+};
+$.when(wait())
+    .done(function(){ alert("哈哈，成功了！"); })
+    .fail(function(){ alert("出錯啦！"); });
+
+// reference : http://www.ruanyifeng.com/blog/2011/08/a_detailed_explanation_of_jquery_deferred_object.html
