@@ -64,7 +64,9 @@ for (var i=0; i<myMusic.Mayday.length; i++) {
 
 
 /* --------------JSON-------------- */
-//註：JSON 跟Object 可以互轉
+//JSON 跟Object 可以互轉
+//參考：http://blog.kkbruce.net/2011/01/json.html#.VqhE2JN95fJ
+
 //JSON example:
 {
 	"employees":[
@@ -74,12 +76,20 @@ for (var i=0; i<myMusic.Mayday.length; i++) {
 	]
 }
 
-/*--------------API：Application Programming Interface--------------*/
+/*-------------- API：Application Programming Interface --------------*/
 //應用程式介面
 
-/* --------------JSONP:JSON with Padding-------------- */
+/* -------------- JSONP:JSON with Padding -------------- */
 //垮網域存取 JSON
 
-/* --------------JSON online tools-------------- */
+/* -------------- JSON online tools -------------- */
 //http://jsonlint.com/
 //http://www.jsoneditoronline.org/
+
+/*-------------- jQuery AJAX 簡單用法 --------------*/
+//http://webdesign.kerthis.com/jquery/jquery_ajax
+
+/*-------------- HTTP 的 GET 和 POST 的方法比較 --------------*/
+//http://www.w3school.com.cn/tags/html_ref_httpmethods.asp
+
+
