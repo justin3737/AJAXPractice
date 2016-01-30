@@ -28,10 +28,10 @@ $(function(){
         /* 這邊可以寫 fail 的 callback (可不寫)*/
         .fail(function(jqXHR, textStatus, errorThrown) {
             console.log(jqXHR, textStatus, errorThrown);
-        });
+        })
         /* 這邊可以寫 always 的 callback (可不寫)*/
         .always(function(){
             console.log('不論成功或是失敗這個 callback always 觸發！');
-        })
+        });
     });
 });
