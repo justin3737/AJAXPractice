@@ -38,7 +38,7 @@ $(function(){
             $content.append('<h4>行經路線：</h4>');
 
             /*利用 join 這個方法把陣列內容取出轉成字串 */
-            $content.append(busStopData[busName].join('</br>'));
+            $content.append(busStopData[busName].join('</br>')); //busStopData[254]
             $content.append('<h4>--------------' + busName + '公車結束------------------</h4>');
         }
     });

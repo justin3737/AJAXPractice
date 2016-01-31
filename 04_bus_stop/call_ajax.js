@@ -16,18 +16,18 @@ $(function(){
             $content.html(""); //清空div
 
             var busStop = [];
-            for (var item in data) {
+            for (var busName in data) {
                 /* 這裡印出 bus name */
-                $content.append('<h3>公車：' + item + '</h3>');
+                $content.append('<h3>公車：' + busName + '</h3>');
                 $content.append('<h4>行經路線：</h4>');
 
                 /* 這裡印出 bus stop */
                 /* 先把所有內容取出來存到 busStop Array */
-                busStop = data[item];
+                busStop = data[busName]; //data["208"]
 
                 /*利用 join 這個方法把陣列內容取出轉成字串 */
                 $content.append(busStop.join('</br>'));
-                $content.append('<h4>--------------' + item + '公車結束------------------</h4>');
+                $content.append('<h4>--------------' + busName + '公車結束------------------</h4>');
             }
 
         })
