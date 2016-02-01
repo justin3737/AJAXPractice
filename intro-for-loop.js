@@ -1,3 +1,29 @@
+/*
+for (variable in [object | array]) {
+    statements 
+}
+*/
+
+// Initialize object.
+a = {"a" : "Athens" , "b" : "Belgrade", "c" : "Cairo"}
+
+// Iterate over the properties.
+var s = ""
+for (var key in a) {
+    s += key + ": " + a[key];
+    s += "<br />";
+    }
+document.write (s);
+
+// Output:
+// a: Athens
+// b: Belgrade
+// c: Cairo
+
+
+
+
+
 var myMusic = {
   Mayday : ["01-擁抱","02-純真","03-尬車"],
 	Jolin  : ["01-馬德里","02-倒帶","03-七十二變"],
