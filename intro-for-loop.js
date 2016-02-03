@@ -71,9 +71,9 @@ console.log('------印出myMusic 的歌手------');
 
 
 var singer = []; /* 宣告一個陣列來放歌手的名字 */
-for(var ss in myMusic) {
-  console.log('歌手：' + ss);
-  singer.push(ss);
+for(var singerName in myMusic) {
+  console.log('歌手：' + singerName);
+  singer.push(singerName);
 }
 
 /* 宣告多個歌手變數 */
