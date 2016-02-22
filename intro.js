@@ -47,6 +47,10 @@ console.log(myMusic.Jolin[2]);
 //"03-七十二變"
 
 
+//for (起始值; 終止條件; 遞增/減值) {
+// ...
+//}
+
 //for loop example 1
 for (j=0; j<10;j++) {
     console.log(j);
