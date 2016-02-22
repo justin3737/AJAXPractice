@@ -47,6 +47,36 @@ console.log(myMusic.Jolin[2]);
 //"03-七十二變"
 
 
+//for loop example 1
+for (j=0; j<10;j++) {
+    console.log(j);
+}
+//0
+//1
+//2
+//3
+//4
+//5
+//6
+//7
+//8
+//9
+
+//for loop example 2
+for (j=10; j>0;j--) {
+    console.log(j);
+}
+//10
+//9
+//8
+//7
+//6
+//5
+//4
+//3
+//2
+//1
+
 /* --------------for loop example-------------- */
 /* 印出五月天專輯所有歌曲 */
 console.log('====印出五月天專輯所有歌曲====');
