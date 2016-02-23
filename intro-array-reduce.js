@@ -1,5 +1,5 @@
 
-var ex1 = [0, 1, 2, 3, 4].reduce(function(previousValue, currentValue, currentIndex, array) {
+var ex0 = [0, 1, 2, 3, 4].reduce(function(previousValue, currentValue, currentIndex, array) {
   return previousValue + currentValue;
 });
 
